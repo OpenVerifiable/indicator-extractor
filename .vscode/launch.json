@@ -223,6 +223,18 @@
       ],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "name": "Pixel10",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/cli.js",
+      "args": [
+        "${workspaceFolder}/testfiles/PXL_20250818_155024632.jpg",
+        "${workspaceFolder}/output",
+        "--pretty",
+        "--set"
+      ],
     }
   ]
 }
